@@ -1,0 +1,17 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>INTERACTIVE BOARD</title>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/bootstrap.min.css') }}"/>
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}"/>
+<script type="text/javascript" src="{{ url_for('static', filename='js/jquery.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+<script type="text/javascript" src="{{ url_for('static', filename='js/fade.js') }}"></script>
+<div class="container-fluid">
+<body class="fade-out">
+{% block body %}
+{% endblock %}
+   </body>
+</div>
+</html>
+

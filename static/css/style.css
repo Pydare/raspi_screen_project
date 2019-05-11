@@ -1,0 +1,43 @@
+body{
+   background-color: yellow;
+     opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
+}
+.index {
+ position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    font-size: 200px;
+
+}
+a:link{
+    color:red
+}
+.glyphicon-play:hover{
+    color: red;
+    font-size: 400px;
+     background:linear-gradient(blue,yellow);
+}
+.glyphicon-arrow-left{
+    font-size: 50px;
+}
+.btn-success{
+    height: 100%;width:100%;font-size:70px; color: red
+}
+.btn-danger{
+    height: 100%;width:100%; font-size: 70px; color: blue;
+}
+.num:hover
+{
+    font-weight: bold;
+}
+.let:hover
+{
+    font-weight: bold;
+}
